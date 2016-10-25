@@ -1,0 +1,169 @@
+
+body{
+    margin:0;
+    padding: 0;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.tag-header{
+    text-align: center;
+    background: #2F4F4F;
+    color: #5F9EA0;
+    height:100px;
+
+}
+
+.tag-header .h1-header{
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+}
+
+.menu-nav{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.ul-menu .li-menu{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.ul-menu .li-menu a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #333;
+    font-size: 20px;
+    border: 1px #2F4F4F solid;
+    border-radius: 3px;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.active{
+    background: #5F9EA0;
+    color: #333;
+}
+
+.active:hover{
+    background: #333;
+    color: #5F9EA0;
+}
+
+.li-menu a:hover{
+    background: #2F4F4F;
+    color: #5F9EA0;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.contenido{
+    float: left;
+    margin: 5px 70px 25px 70px;
+    text-align: left;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+    text-align: center;
+
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover{
+    box-shadow: 0 0 2px 1px rgba
+    (0, 140, 186, 0.5);
+}
+
+.img-html{
+    border: 2px solid #FF7F50;
+}
+
+.img-css{
+    border: 2px solid #1E90FF;   
+}
+
+.img-bootstrap{
+    border: 2px solid #6A5ACD;
+}
+
+#html{
+    color: #FF4500;
+}
+
+#css,.h1-css{
+    color: #1E90FF;
+}
+
+#bootstrap{
+    color: #483D8B;
+}
+
+.parrafos{
+    width: 750px;
+    margin: 20px;
+}
+
+
+p{
+
+    text-align: justify;
+}
+
+a .img-up{
+    width: 35px;
+    position: fixed;
+    margin: 10px;
+    bottom: 0px;
+}
+
+.span-html{
+    color: #FF4500;
+}
+
+.span-css{
+    color: #1E90FF;
+}
+
+.span-bootstrap{
+    color: #483D8B;
+}
+
+.linea{
+    border:1px solid #191970;
+    width: 700px;
+    margin: 5px 50px 25px 50px
+}
+
+.editor{
+    background: #111;
+    color: #fff;
+    padding: 15px;
+    outline: 1px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.li-square{
+    list-style-type: square;
+}
